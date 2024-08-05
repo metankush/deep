@@ -4,7 +4,7 @@ server with default setting (user 'root' with no password) */
 define('BASE_URL', 'http://localhost/stock'); 
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'root@123');
 define('DB_NAME', 'deep_sheetal_db');
  
 /* Attempt to connect to MySQL database */
