@@ -24813,3 +24813,8 @@ padding-bottom: 35px;
 .bd-main-menu ul li:last-child a::before{
   display: none;
 }
+.footer-widget-logo {
+    background: #fff;
+    border-radius: 6px;
+    text-align: center;
+}

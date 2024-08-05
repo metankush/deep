@@ -12,7 +12,7 @@
                     <div class="offcanvas-top d-flex justify-content-between align-items-center mb-25">
                         <div class="offcanvas-logo">
                             <a href="index.php">
-                                <img src="assets/images/logo/logo-home.png" alt="logo not found">
+                                <img src="assets/images/logo/logo-home-top.png" alt="logo not found">
                             </a>
                         </div>
                         <div class="offcanvas-close">
@@ -82,10 +82,10 @@
 
       <!-- main header start -->
       <div class="header-area header-primary" id="header-sticky">
-      <h2>Deep Sheetal Engineers PVT.LTD.</h2>
+    
           <div class="header-inner">
               <div class="header-logo">
-                  <a href="index.php"><img src="assets/images/logo/logo-home.png" alt="Logo"></a>
+                  <a href="index.php"><img src="assets/images/logo/logo-home-top.png" alt="Logo"></a>
               </div>
               <div class="header-menu">
                   <nav class="bd-main-menu" id="mobile-menu">
