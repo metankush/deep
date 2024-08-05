@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoonad77.eot?46rvbs');
+  src:  url('../../fonts/icomoonad77.eot?46rvbs#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoonad77.ttf?46rvbs') format('truetype'),
+    url('../../fonts/icomoonad77.woff?46rvbs') format('woff'),
+    url('../../fonts/icomoonad77.svg?46rvbs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cost-effective:before {
+  content: "\e929";
+}
+.icon-value-for-money:before {
+  content: "\e92a";
+}
+.icon-innovation:before {
+  content: "\e923";
+}
+.icon-cctv-camera:before {
+  content: "\e924";
+}
+.icon-easy-ccessibility:before {
+  content: "\e925";
+}
+.icon-eco-friendly:before {
+  content: "\e926";
+}
+.icon-location1:before {
+  content: "\e927";
+}
+.icon-modern-living:before {
+  content: "\e928";
+}
+.icon-buy-house:before {
+  content: "\e920";
+}
+.icon-search-property:before {
+  content: "\e921";
+}
+.icon-trusted-property:before {
+  content: "\e922";
+}
+.icon-home-buy:before {
+  content: "\e91d";
+}
+.icon-home-sell:before {
+  content: "\e91e";
+}
+.icon-rent-home:before {
+  content: "\e91f";
+}
+.icon-clinics-center:before {
+  content: "\e915";
+}
+.icon-educational-area:before {
+  content: "\e916";
+}
+.icon-kids-playzone:before {
+  content: "\e917";
+}
+.icon-living-space:before {
+  content: "\e918";
+}
+.icon-office-spaces:before {
+  content: "\e919";
+}
+.icon-parking-area:before {
+  content: "\e91a";
+}
+.icon-security-features:before {
+  content: "\e91b";
+}
+.icon-swimming-pools:before {
+  content: "\e91c";
+}
+.icon-garden:before {
+  content: "\e937";
+}
+.icon-bathroom:before {
+  content: "\e932";
+}
+.icon-bedroom:before {
+  content: "\e933";
+}
+.icon-dining-area:before {
+  content: "\e934";
+}
+.icon-garage:before {
+  content: "\e935";
+}
+.icon-gym-area:before {
+  content: "\e936";
+}
+.icon-city:before {
+  content: "\e92b";
+}
+.icon-factories:before {
+  content: "\e92c";
+}
+.icon-house:before {
+  content: "\e92d";
+}
+.icon-penthouse:before {
+  content: "\e92e";
+}
+.icon-store:before {
+  content: "\e92f";
+}
+.icon-urban:before {
+  content: "\e930";
+}
+.icon-warehouse:before {
+  content: "\e931";
+}
+.icon-auction-house:before {
+  content: "\e90c";
+}
+.icon-project:before {
+  content: "\e90d";
+}
+.icon-construction:before {
+  content: "\e90e";
+}
+.icon-satisfied-client:before {
+  content: "\e90f";
+}
+.icon-buy-home:before {
+  content: "\e912";
+}
+.icon-rent-property:before {
+  content: "\e913";
+}
+.icon-sell-property:before {
+  content: "\e914";
+}
+.icon-villa:before {
+  content: "\e911";
+}
+.icon-award:before {
+  content: "\e910";
+}
+.icon-buyers:before {
+  content: "\e909";
+}
+.icon-marketing:before {
+  content: "\e90a";
+}
+.icon-technical-support:before {
+  content: "\e90b";
+}
+.icon-interior-design:before {
+  content: "\e908";
+}
+.icon-calculation:before {
+  content: "\e905";
+}
+.icon-location:before {
+  content: "\e906";
+}
+.icon-people:before {
+  content: "\e907";
+}
+.icon-efficiency:before {
+  content: "\e904";
+}
+.icon-cost-effectiveness:before {
+  content: "\e901";
+}
+.icon-flexibility:before {
+  content: "\e902";
+}
+.icon-solution:before {
+  content: "\e903";
+}
+.icon-home:before {
+  content: "\e900";
+}
