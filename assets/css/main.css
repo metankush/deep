@@ -19735,7 +19735,7 @@ font-size: 15px;
 }
 .property-details-feature ul {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
