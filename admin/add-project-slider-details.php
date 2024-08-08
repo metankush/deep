@@ -173,10 +173,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
               <div class="crancy-body">
                 <!-- Dashboard Inner -->
                 <div class="crancy-dsinner">
-				 <?php
+                <?php
 						  $id = isset($_GET['id'])?mysqli_real_escape_string($link,$_GET['id']):'';
 
-                    $sql = "SELECT r.category_id, r.subcategory_id, r.project_name, r.no_of_bad, r.no_of_bath, r.area_sqft, r.price, r.address, r.google_map, r.photo, r.description,  r.id, r.status, e.project_cate_name, m.subcategory_name
+                    $sql = "SELECT r.category_id, r.subcategory_id, r.project_name,  r.price, r.address, r.google_map, r.photo, r.description,  r.id, r.status, e.project_cate_name, m.subcategory_name
        FROM project_category_tbl e
        JOIN project_tbl r ON e.id=r.category_id
 	   JOIN project_subcategory_tbl m ON m.id=r.subcategory_id	  WHERE r.id='".$id."'";
