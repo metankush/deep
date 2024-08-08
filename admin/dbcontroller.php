@@ -2,7 +2,7 @@
 class DBController {
 	private $host = "localhost";
 	private $user = "root";
-	private $password = "";
+	private $password = "root@123";
 	private $database = "deep_sheetal_db";
 	private $conn;
 	

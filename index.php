@@ -476,11 +476,7 @@ if ($t < "2") {
                                 </div>
                                 <h3 class="title"><a href="projects-details.php?action=views&id=<?php echo $row['id']; ?>"><?php echo $row['project_name']; ?></a></h3>
                                 <span class="info"><?php echo $row['address']; ?></span>
-                                <div class="bd-meta">
-                                    
-                                    
-                                    
-                                </div>
+                              
                             </div>
                         </div>
                     </div>

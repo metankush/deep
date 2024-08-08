@@ -241,7 +241,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                      </span>
                             <h4 class="property-details-title-two">Description</h4>
                             <div class="property-details-descrip-text">
-                               <?php echo $row['address']; ?>
+                               <?php echo $row['description']; ?>
                             </div>
                             <h4 class="property-details-title-two">Property Details</h4>
                             <div class="property-details-info-list wow bdFadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
@@ -451,7 +451,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 									
                                         <div class="sidebar-blog-item">
                                             <div class="sidebar-blog-thumb">
-                                                <a href="projects-details.php">
+                                                <a href="projects-details.php?action=views&id=<?php echo $rowss['id']; ?>">
                                                     <img src="admin/img/<?php echo $rowss['photo']; ?>" alt="image">
                                                 </a>
                                             </div>
@@ -460,7 +460,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                                     
                                                 </div>
                                                 <h3 class="sidebar-blog-title">
-                                                    <a href="projects-details.php"><?php echo $rowss['project_name']; ?></a>
+                                                    <a href="projects-details.php?action=views&id=<?php echo $rowss['id']; ?>"><?php echo $rowss['project_name']; ?></a>
                                                 </h3>
                                             </div>
                                         </div>
