@@ -234,7 +234,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         <div class="property-details-content-inner">
                            
                             <h2 class="property-details-title"><?php echo $row['project_name']; ?></h2>
-                            <h5 class="mb-4">Price :- ₹<?php echo $row['price']; ?></h5>
+                            <h5 class="mb-4">Status :- <?php echo $row['price']; ?></h5>
                             <span class="property-details-location">
                         <i class="fa-regular fa-location-dot"></i>
                        <?php echo $row['address']; ?>
