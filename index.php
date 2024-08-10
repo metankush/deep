@@ -471,8 +471,9 @@ if ($t < "2") {
                                 </div>
                             </div>
                             <div class="content">
-                                <div class="price">
-                                    <span>₹<?php echo $row['price']; ?>/</span>
+                                
+                                <div class="price">Status :-
+                                    <span><?php echo $row['price']; ?></span>
                                 </div>
                                 <h3 class="title"><a href="projects-details.php?action=views&id=<?php echo $row['id']; ?>"><?php echo $row['project_name']; ?></a></h3>
                                 <span class="info"><?php echo $row['address']; ?></span>
