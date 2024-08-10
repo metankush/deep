@@ -232,7 +232,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <div class="row g-5">
                     <div class="col-xl-8 col-lg-8">
                         <div class="property-details-content-inner">
-                           
+                           <!-- vaibav -->
                             <h2 class="property-details-title"><?php echo $row['project_name']; ?></h2>
                             <h5 class="mb-4">Status :- <?php echo $row['price']; ?></h5>
                             <span class="property-details-location">
