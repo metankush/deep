@@ -391,7 +391,7 @@ if ($t < "2") {
                     $sql = "SELECT r.category_id, r.subcategory_id, r.project_name, r.product_description,  r.price, r.address, r.google_map, r.photo, r.description,  r.id, r.status, e.project_cate_name, m.subcategory_name
        FROM project_category_tbl e
        JOIN project_tbl r ON e.id=r.category_id
-	   JOIN project_subcategory_tbl m ON m.id=r.subcategory_id WHERE r.`category_id` ='1'  Or `status`='1'";
+	   JOIN project_subcategory_tbl m ON m.id=r.subcategory_id WHERE r.`category_id` ='1'  and `status`='1'";
 	   
                     $query = $link->query($sql);
                     while($row = $query->fetch_assoc()){
@@ -417,8 +417,8 @@ if ($t < "2") {
                                 </div>
                             </div>
                             <div class="content">
-                                <div class="price">
-                                    <span>₹<?php echo $row['price']; ?>/</span>
+                                <div class="price">Status :-
+                                    <span><?php echo $row['price']; ?></span>
                                 </div>
                                 <h3 class="title"><a href="projects-details.php?action=views&id=<?php echo $row['id']; ?>"><?php echo $row['project_name']; ?></a></h3>
                                 <span class="info"><?php echo $row['address']; ?></span>
@@ -446,7 +446,7 @@ if ($t < "2") {
                     $sql = "SELECT r.category_id, r.subcategory_id, r.project_name, r.product_description,  r.price, r.address, r.google_map, r.photo, r.description,  r.id, r.status, e.project_cate_name, m.subcategory_name
        FROM project_category_tbl e
        JOIN project_tbl r ON e.id=r.category_id
-	   JOIN project_subcategory_tbl m ON m.id=r.subcategory_id WHERE r.`category_id` ='2'  Or `status`='1'";
+	   JOIN project_subcategory_tbl m ON m.id=r.subcategory_id WHERE r.`category_id` ='2'  and `status`='1'";
 	   
                     $query = $link->query($sql);
                     while($row = $query->fetch_assoc()){
