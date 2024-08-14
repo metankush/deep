@@ -110,7 +110,7 @@
                                                     <div class="thumb-wrapper">
                                                         <div class="badge-wrap">
                                                         
-                                                            <span class="bd-badge">For Sale</span>
+                                                           
                                                         </div>
                                                      
                                                         <div class="thumb">

@@ -104,13 +104,11 @@
                     while($row = $query->fetch_assoc()){
                       ?>
                                 <div class="col-lg-4">
-                                    <div class="featured-item style-one">
+                                    <div class="featured-item style-one mb-4">
                                         <div class="thumb-wrapper">
                                             <div class="badge-wrap">
                                                 
-                                                <a class="bd-badge" href="projects-details.php?action=views&id=<?php echo $row['id']; ?>">For Sale</a>
-            
-                                                <a class="bd-badge" href="projects-details.php?action=views&id=<?php echo $row['id']; ?>"><?php echo $row['subcategory_name'];  ?></a>
+                                             
                                             </div>
                                             <div class="thumb">
                                                 <a href="projects-details.php?action=views&id=<?php echo $row['id']; ?>">
