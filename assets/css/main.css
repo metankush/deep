@@ -8323,7 +8323,7 @@ input:checked + .switch:before {
 .bd-main-menu > ul > li > a {
   position: relative;
 }
-.bd-main-menu > ul > li > a::before {
+/* .bd-main-menu > ul > li > a::before {
   position: absolute;
   content: "|";
   font-family: var(--bd-ff-fontawesome);
@@ -8331,7 +8331,7 @@ input:checked + .switch:before {
   font-weight: 400;
   transform: rotate(20deg);
   color: var(--bd-border-primary);
-}
+} */
 .bd-main-menu > ul > li:last-child a::before {
   display: none;
 }

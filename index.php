@@ -236,19 +236,19 @@ if ($t < "2") {
                         </div>
 
                         <div class="content">
-                            <p class="description">We believe in more than just buying and selling properties. we believe in
+                            <p class="description">We believe in more than just buying and selling properties. We believe in
                                 turning dreams
                                 into reality. Explore our curated selection of homes tailored to your unique lifestyle.</p>
                         </div>
                         <div class="about-list-wrapper style-two">
-                            <ul>
+                            <!-- <ul>
                                 <li>
                                     <span> <i class="icon-interior-design"></i></span>
                                     Smart Home Design
                                 </li>
                               
                              
-                            </ul>
+                            </ul> -->
                         </div>
                         <div class="about-btn">
                             <a class="bd-half-outline-btn" href="about.php"><span class="text">Read More</span></a>
@@ -403,10 +403,7 @@ if ($t < "2") {
                         <div class="featured-item style-one">
                             <div class="thumb-wrapper">
                                 <div class="badge-wrap">
-                                    
-                                    <a class="bd-badge" href="projects-details.php">For Sale</a>
-
-                                    <a class="bd-badge" href="projects-details.php"><?php echo $row['subcategory_name']; ?></a>
+                                  
                                 </div>
                                 <div class="thumb">
                                     <a href="projects-details.php?action=views&id=<?php echo $row['id']; ?>">
@@ -457,10 +454,7 @@ if ($t < "2") {
                         <div class="featured-item style-one">
                             <div class="thumb-wrapper">
                                 <div class="badge-wrap">
-                                    
-                                    <a class="bd-badge" href="projects-details.php">For Sale</a>
-
-                                    <a class="bd-badge" href="#"><?php echo $row['subcategory_name']; ?></a>
+                                 
                                 </div>
                                 <div class="thumb">
                                     <a href="projects-details.php?action=views&id=<?php echo $row['id']; ?>">
@@ -510,7 +504,7 @@ if ($t < "2") {
         <i class="icon-home"></i>
         core feature
     </span>
-                            <h2 class="section-title title-animation">Core feature facility</h2>
+                            <h2 class="section-title title-animation">Modern Living With Ementi</h2>
                         </div>
 
                     </div>

@@ -29,7 +29,7 @@
                     <div class="mobile-menu fix mb-25"></div>
                     <div class="offcanvas-about d-none d-lg-block mb-25">
                         <h4 class="offcanvas-title-meta">About Deep Sheetal Engineers</h4>
-                        <p>We believe in more than just buying and selling properties. we believe in turning dreams into reality. Explore our curated selection of homes tailored to your unique lifestyle.</p>
+                        <p>We believe in more than just buying and selling properties. We believe in turning dreams into reality. Explore our curated selection of homes tailored to your unique lifestyle.</p>
                     </div>
                     <div class="offcanvas-contact mb-25">
                         <h4 class="offcanvas-title-meta">Contact Info</h4>
@@ -40,7 +40,7 @@
                                         <i class="fal fa-map-marker-alt"></i></a>
                                 </div>
                                 <div class="offcanvas-contact-text">
-                                    <a target="_blank" href="#">03rd Floor, S. S. Furniture Mall, Besides IOCL Petrol Pump, Near Ganesh Timber, Danapur, Patna Patna BR 801503 IN.</a>
+                                    <a target="_blank" href="#">03rd Floor, S. S. Furniture Mall, Bailey Road, Besides IOCL Petrol Pump, Danapur, Patna, Bihar-801503,Ind.</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center gap-10">
