@@ -40,7 +40,7 @@
                                         <i class="fal fa-map-marker-alt"></i></a>
                                 </div>
                                 <div class="offcanvas-contact-text">
-                                    <a target="_blank" href="#">03rd Floor, S. S. Furniture Mall, Bailey Road, Besides IOCL Petrol Pump, Danapur, Patna, Bihar-801503,Ind.</a>
+                                    <a target="_blank" href="#">03rd Floor, S. S. Furniture Mall, Bailey Road, Besides IOCL Petrol Pump, Danapur, Patna, Bihar-801503, IND.</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center gap-10">

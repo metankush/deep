@@ -504,7 +504,7 @@ if ($t < "2") {
         <i class="icon-home"></i>
         core feature
     </span>
-                            <h2 class="section-title title-animation">Modern Living With Ementi</h2>
+                            <h2 class="section-title title-animation">Modern Living With Amenity</h2>
                         </div>
 
                     </div>

@@ -66,7 +66,7 @@
                           </span>
                                     </div>
                                     <div class="footer-contact-call">
-                                        <span><a href="#">03rd Floor, S. S. Furniture Mall, Bailey Road, Besides IOCL Petrol Pump, Danapur, Patna, Bihar 801503 Ind.</a></span>
+                                        <span><a href="#">03rd Floor, S. S. Furniture Mall, Bailey Road, Besides IOCL Petrol Pump, Danapur, Patna, Bihar-801503, IND.</a></span>
                                     </div>
                                 </div>
                                 <div class="footer-contact-item">
@@ -102,7 +102,7 @@
                 <div class="row">
                     <div class="footer-copyright-wrap">
                         <div class="footer-copyright">
-                            <p class="description underline">   Deep Sheetal Engineers Pvt.Ltd. © Copyright <span id="year"></span> All Rights Reserved.</p>
+                            <p class="description underline">   Deep Sheetal Engineers Pvt. Ltd. © Copyright <span id="year"></span> All Rights Reserved.</p>
                             <p class="description underline"> Design & Developed By : <a target="_blank" href="https://indofast.in/">INDOFAST</a></p>
                         </div>
                       

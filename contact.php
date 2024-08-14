@@ -203,7 +203,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <div class="contact-icon mb-30"><i class="fa-sharp fa-light fa-location-dot"></i></div>
                             <h5 class="contact-title mb-15">Our Location</h5>
                             <div class="contact-content">
-                                <a target="_blank" href="#">03rd Floor, S. S. Furniture Mall, Bailey Road, Besides IOCL Petrol Pump, Danapur, Patna, Bihar-801503,Ind.</a>
+                                <a target="_blank" href="#">03rd Floor, S. S. Furniture Mall, Bailey Road, Besides IOCL Petrol Pump, Danapur, Patna, Bihar-801503, IND.</a>
                                
                             </div>
                         </div>
