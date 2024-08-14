@@ -220,7 +220,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <div class="col-lg-12">
                                         <div class="form-input-box has-icon icon-right">
                                             <div class="form-input">
-                                                <input name="phone_no" type="text" placeholder="Your Phone">
+                                                <input name="phone_no" maxlength="12" type="text" placeholder="Your Phone">
                                                 <div class=""><span><i class="fa-solid fa-phone"></i></span></div>
                                             </div>
                                         </div>
