@@ -109,41 +109,8 @@
                           </li>
 
                           <li class="menu-item-has-children">
-                              <a href="#">Projects</a>
-                              <ul class="dp-menu">
-							  	<?php
-					
-                  $sql = "SELECT * FROM `project_category_tbl`";
-$result = $link->query($sql);
-
-if ($result->num_rows > 0) {
-  // output data of each row
-  while($row = $result->fetch_assoc()) {
-   
-  
-                      ?>
-								
-                                  <li><a href="#"><?php echo $row['project_cate_name']; ?></a>
-                                      <ul class="dp-menu">
-									  	<?php
-					$categid = $row['id']; 
-					
-                  $sql = "SELECT * FROM `project_subcategory_tbl` WHERE `project_category_id` = '".$categid."'";
-$results = $link->query($sql);
-
-  // output data of each row
-  while($rows = $results->fetch_assoc()) {
-   
-  
-                      ?>
-                                          <li><a href="projects.php?action=views&id=<?php echo $rows['id']; ?>"><?php echo $rows['subcategory_name']; ?></a></li>
-                                         
-										 <?php }?>
-                                      </ul>
-                                  </li>
-                                  
-                                  <?php }}?>
-                              </ul>
+                              <a href="all_projects.php">Projects</a>
+                              
                           </li>
 
                      

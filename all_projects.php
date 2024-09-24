@@ -82,7 +82,7 @@
             <div class="container">
                 <div class="swiper common-carousel-active wow bdFadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                     <div class="swiper-wrapper">
-                <div class="row justify-content-center">
+                <div class="row ">
                
 			   
 			   

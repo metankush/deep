@@ -197,7 +197,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <div class="contact-from">
                                 <div class="row g-5 align-items-center justify-content-center">
                                     <div class="col-lg-12 text-center">
-<h4>Enquire Now</h4>
+<h4>Enquiry Now</h4>
 <p>Fill in the following details and we will get back to you shortly.</p>
                                     </div>
                                     <div class="col-lg-6">

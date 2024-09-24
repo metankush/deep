@@ -49,7 +49,7 @@
                             <div class="footer-widget-links">
                                 <ul>
                                     <li class="underline"><a href="projects.php">Residential</a></li>
-                                    <li class="underline"><a href="projects.php">Commercial</a></li>
+                                    <li class="underline"><a href="projects.php">Residential Cum Commercial</a></li>
                                     
                                 </ul>
                             </div>

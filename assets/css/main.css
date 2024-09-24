@@ -20321,6 +20321,7 @@ font-size: 15px;
 .agent-item.style-one .thumb-wrapper .thumb img {
   width: 100%;
   transition: all 1.1s cubic-bezier(0, 0, 0.2, 1);
+  height: 404px;
 }
 .agent-item.style-one .content .top .review {
 
