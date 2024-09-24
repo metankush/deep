@@ -214,7 +214,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <h5 class="contact-title mb-15">Email Us</h5>
                             <div class="contact-content">
                                 <a href="mailto:deepsheetalengineers@gmail.com">deepsheetalengineers@gmail.com</a>
-                                <a href="mailto:info@deepsheetal.com">info@deepsheetal.com</a>
+                               
                                
                             </div>
                         </div>
