@@ -184,52 +184,61 @@
 
 
         <!-- counter area start -->
-        <section class="bd-counter-area section-space theme-bg-primary">
+        <section class="bd-testimonial-area p-relative z-index-11 section-space">
             <div class="container">
-                <div class="row g-0">
-                    <div class="counter-wrapper style-two">
-                        <div class="counter-item wow bdFadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
-                            <span class="icon"><i class="icon-satisfied-client"></i></span>
-                            <div class="content">
-                                <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="198"
-                              class="purecounter">198+</span>+</h2>
-                                <p class="description">Satisfied clients</p>
-                            </div>
-                            <div class="apartment-counter-divider"></div>
-                        </div>
-                        <div class="apartment-counter-divider"></div>
-                        <div class="counter-item wow bdFadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
-                            <span class="icon"><i class="icon-auction-house"></i></span>
-                            <div class="content">
-                                <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="200"
-                              class="purecounter">200+</span>+</h2>
-                                <p class="description">Project Handover</p>
-                            </div>
-                        </div>
-
-                        <div class="apartment-counter-divider"></div>
-                        <div class="counter-item wow bdFadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
-                            <span class="icon"><i class="icon-satisfied-client"></i></span>
-                            <div class="content">
-                                <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="10"
-                              class="purecounter">10+</span>+</h2>
-                                <p class="description">Our Agent</p>
-                            </div>
-                        </div>
-
-                        <div class="apartment-counter-divider"></div>
-                        <div class="counter-item wow bdFadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
-                            <span class="icon"><i class="icon-award"></i></span>
-                            <div class="content">
-                                <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="3"
-                              class="purecounter">3+</span>+</h2>
-                                <p class="description">Years Experience</p>
-                            </div>
-                        </div>
+          
+                <div class="row align-items-center wow bdFadeInUp" data-wow-delay=".3s">
                    
-                        <div class="apartment-counter-top-line"></div>
-                        <div class="apartment-counter-bottom-line"></div>
+                  
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                        <div class="testimonials-info-wrapper">
+                            <div class="row text-center">
+<div class="col-lg-3">
+<div class="testimonials-info-item">
+                                <div class="content">
+                                    <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="10"
+                                 class="purecounter">10</span>+</h2>
+                                    <p class="description">Year of experience</p>
+                                </div>
+                            </div>
+</div>
+<div class="col-lg-3">
+    <div class="testimonials-info-item">
+                                    <div class="content" >
+                                        <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="05"
+                                     class="purecounter">5</span>+</h2>
+                                        <p class="description">Total Project</p>
+                                    </div>
+                                </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="testimonials-info-item">
+                                        <div class="content" style="margin-top: -13px; ">
+                                        <img src="assets/images/custumber-mony.png" alt="">
+                                            <p class="description">Customer First</p>
+                                        </div>
+                                    </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="testimonials-info-item">
+                                            <div class="content" style="margin-top: -10px; ">
+                                                <img src="assets/images/1523224.png" alt="">
+                                                <p class="description">Value for money</p>
+                                            </div>
+                                        </div>
+            </div>
+                            </div>
+                         
+                          
+                         
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="testimonial-shapes">
+                <div class="shape-one">
+                    <img src="assets/images/shapes/quotes-white.svg" alt="quotes not found">
                 </div>
             </div>
         </section>
@@ -373,94 +382,7 @@
 <!-- Team area end -->
 
   <!-- Testimonial area start -->
-  <section class="bd-testimonial-area p-relative section-space z-index-11 ">
-            <div class="container">
-
-                <div class="row justify-content-center">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="section-title-wrapper anim-wrapper section-title-space text-center animation-style-3">
-                            <span class="section-subtitle uppercase">
-        <i class="icon-home"></i>
-        Testimonial
-    </span>
-                            <h2 class="section-title title-animation">Feedback from our Clients</h2>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="row align-items-center wow bdFadeInUp" data-wow-delay=".3s">
-                    <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-4">
-                  <div class="testimonial-img-for-about">
-<img src="assets/images/property/GS1.jpeg" alt="">
-                  </div>
-                    </div>
-                    <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-8">
-                        <div class="testimonial-content-two">
-                            <div class="swiper testimonial-active-two">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="testimonials-item style-two">
-                                            <div class="content view-more-view-less">
-                                                
-                                                <p class="title">“ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, dolore dicta? Iure eligendi nulla architecto debitis vitae accusantium porro voluptates, illum eos deserunt quod id voluptate ipsam rem dignissimos veniam incidunt molestiae laudantium quam omnis unde? Nam ea, itaque velit quia sit quidem fugit magni dolor recusandae, sint animi! Pariatur illum, repellendus et fuga voluptate modi minima aspernatur est, animi natus porro, nesciunt mollitia excepturi dolore aliquam. Saepe aliquam sunt dolorem, inventore ducimus harum nam voluptate molestias nemo veritatis doloremque. ”</p>
-                                                <input type="checkbox" class="check" />
-                                            </div>
-                                            <div class="admin-nav-wrap">
-                                                <div class="admin-item">
-                                                    <div class="admin-thumbnail">
-                                                        <img src="assets/images/21104.png" alt="Admin Avatar">
-                                                    </div>
-                                                    <div class="admin-info">
-                                                        <h4 class="admin-name">Shivam Raj</h4>
-                                                       
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="testimonials-item style-two">
-                                            <div class="content view-more-view-less">
-                                              
-                                                <p class="title">“ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, dolore dicta? Iure eligendi nulla architecto debitis vitae accusantium porro voluptates, illum eos deserunt quod id voluptate ipsam rem dignissimos veniam incidunt molestiae laudantium quam omnis unde? Nam ea, itaque velit quia sit quidem fugit magni dolor recusandae, sint animi! Pariatur illum, repellendus et fuga voluptate modi minima aspernatur est, animi natus porro, nesciunt mollitia excepturi dolore aliquam. Saepe aliquam sunt dolorem, inventore ducimus harum nam voluptate molestias nemo veritatis doloremque. ”</p>
-                                                <input type="checkbox" class="check" />
-                                            </div>
-                                            <div class="admin-nav-wrap">
-                                                <div class="admin-item">
-                                                    <div class="admin-thumbnail">
-                                                        <img src="assets/images/21104.png" alt="Admin Avatar">
-                                                    </div>
-                                                    <div class="admin-info">
-                                                        <h4 class="admin-name">Raju Kumar</h4>
-                                                       
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- If we need navigation buttons -->
-                                <div class="testimonial-navigation d-none d-sm-block">
-                                    <button class="testimonial-nav-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
-                                    <button class="testimonial-nav-next"><i class="fa-regular fa-arrow-right-long"></i></button>
-                                </div>
-                                <div class="testimonial-pagination d-block d-sm-none">
-                                    <div class="testimonial-swiper-dot text-center"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                   
-                </div>
-            </div>
-            <div class="testimonial-shapes">
-                <div class="shape-one">
-                    <img src="assets/images/shapes/quotes-white.svg" alt="quotes not found">
-                </div>
-            </div>
-        </section>
+ 
         <!-- Testimonial area end -->
 
             <!-- core features area start -->
