@@ -19502,7 +19502,7 @@ font-size: 15px;
   visibility: visible;
 }
 .core-feature-item.style-one .icon {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   transition: all 0.8s ease;
   display: inline-block;
 }
@@ -24825,4 +24825,8 @@ padding-bottom: 35px;
   }
   .content img{
     width: 59px;
+  }
+  .core-feature-item .content{
+    margin: auto 0;
+    margin-bottom: 0;
   }

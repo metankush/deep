@@ -162,8 +162,7 @@
                     <div class="about-content style-two">
                         <p>The process of getting your dream home is very simple with Deep Sheetal Engineers PVT.LTD. This has made us one of the top real estate Company in Patna.</p>
                         <p>All you need to do is give us a call or fill the contact us form on our website. You can check out our most recent and upcoming project details from our website.</p>
-                        <p>They are working day and night focusing on providing real estate solutions to the clients who are constantly in search of new home for their commercial or personal uses. All of this will require the extraordinary efforts and skills provided by the client. They are providing genuine and hassle-free real estate solutions, either it is developed property or the Home.</p>
-                        <p>This is a great company with a great team with highly motivated employees who are helping the clients in every situation. They are committed to providing the best services and real estate consultancy in Patna, Bihar.</p>
+                        
                     </div>
                   
                   
