@@ -101,9 +101,9 @@
                               <a href="#">Our Story</a>
                               <ul class="dp-menu">
                                   <li><a href="about.php">About Us</a></li>
-                                  <li><a href="mission-vision.php">Mission & Vision</a></li>
+                                  <!-- <li><a href="mission-vision.php">Mission & Vision</a></li>
                                   <li><a href="founder_message.php">Founder Message</a></li>
-                                  <li><a href="certificate.php">Company certification</a></li>
+                                  <li><a href="certificate.php">Company certification</a></li> -->
                                   <li><a href="management.php">Management</a></li>
                               </ul>
                           </li>
