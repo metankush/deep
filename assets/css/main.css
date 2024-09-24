@@ -18566,6 +18566,7 @@ font-size: 15px;
 }
 .featured-item.style-one .content {
   padding: 30px 30px 30px;
+      height: 197px;
 }
 @media (max-width:450px) {
   .featured-item.style-one .content {
@@ -18580,7 +18581,7 @@ font-size: 15px;
   display: inline-block;
 }
 .featured-item.style-one .content > .title {
-  font-size: 24px;
+  font-size: 19px;
   margin-bottom: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
