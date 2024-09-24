@@ -518,8 +518,7 @@ if ($t < "2") {
                             <div class="content">
                                 <h3 class="title">Prime location
                                 </h3>
-                                <p class="description">The core feature of any real estate property is its location. It could be
-                                    in a prime area</p>
+                              
                             </div>
                         </div>
                     </div>
@@ -531,8 +530,7 @@ if ($t < "2") {
                             <div class="content">
                                 <h3 class="title"> Modern living
                                 </h3>
-                                <p class="description">The quality of real state and materials used in the building is crucial
-                                    Features building</p>
+                               
                             </div>
                         </div>
                     </div>
@@ -544,8 +542,7 @@ if ($t < "2") {
                             <div class="content">
                                 <h3 class="title">Eco friendly
                                 </h3>
-                                <p class="description">Features such as green spaces, energy-efficient appliances, and
-                                    eco-friendly</p>
+                               
                             </div>
                         </div>
                     </div>
@@ -557,8 +554,7 @@ if ($t < "2") {
                             <div class="content">
                                 <h3 class="title">Modern technology
                                 </h3>
-                                <p class="description">In today's digital age, properties with smart home features, integrated
-                                    technology</p>
+                               
                             </div>
                         </div>
                     </div>
@@ -570,8 +566,7 @@ if ($t < "2") {
                             <div class="content">
                                 <h3 class="title">Easy accessibility
                                 </h3>
-                                <p class="description">access to transportation hubs, schools, healthcare facilities, shopping
-                                    centers and venues</p>
+                              
                             </div>
                         </div>
                     </div>
@@ -583,8 +578,7 @@ if ($t < "2") {
                             <div class="content">
                                 <h3 class="title">Security cameras
                                 </h3>
-                                <p class="description">Features like gated provide, surveillance cameras, intercom systems and
-                                    security</p>
+                               
                             </div>
                         </div>
                     </div>
