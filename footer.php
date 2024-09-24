@@ -87,8 +87,8 @@
                                     </div>
                                     <div class="footer-contact-mail">
                                         <span><a href="mailto:
-                                            info@deepsheetal.com">
-                                            info@deepsheetal.com</a></span>
+                                           deepsheetalengineers@gmail.com">
+                                            deepsheetalengineers@gmail.com</a></span>
                                     </div>
                                 </div>
                             </div>
