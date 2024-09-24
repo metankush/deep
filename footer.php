@@ -48,8 +48,8 @@
                             <h3 class="footer-widget-title">Category</h3>
                             <div class="footer-widget-links">
                                 <ul>
-                                    <li class="underline"><a href="projects.php">Residential</a></li>
-                                    <li class="underline"><a href="projects.php">Residential Cum Commercial</a></li>
+                                    <li class="underline"><a href="all_projects.php">Residential</a></li>
+                                    <li class="underline"><a href="all_projects.php">Residential Cum Commercial</a></li>
                                     
                                 </ul>
                             </div>
