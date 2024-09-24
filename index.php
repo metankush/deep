@@ -336,7 +336,7 @@ if ($t < "2") {
       <section class="bd-featured-area section-space">
         <div class="container">
             <div class="row g-5  align-items-center justify-content-between">
-                <div class="col-xxl-7 col-xl-6 col-lg-6">
+                <div class="col-xxl-5 col-xl-5 col-lg-6">
                     <div class="section-title-wrapper anim-wrapper animation-style-3">
                         <span class="section-subtitle uppercase">
     <i class="icon-home"></i>
@@ -347,12 +347,12 @@ if ($t < "2") {
 
                 </div>
 
-                <div class="col-xxl-4 col-xl-4 col-lg-6">
+                <div class="col-xxl-7 col-xl-7 col-lg-6">
 <div class="feature_properties-btn">
                 <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Residential</button>
-    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Commercial</button>
+    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Residential Cum Commercial</button>
    
   </div>
 </nav>
@@ -836,94 +836,55 @@ if ($t < "2") {
   
 <!-- Team area end -->
 
-           <!-- Testimonial area start -->
-           <section class="bd-testimonial-area p-relative z-index-11 section-space">
+            <!-- Testimonial area start -->
+            <section class="bd-testimonial-area p-relative z-index-11 section-space">
             <div class="container">
-            <div class="row justify-content-center">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
-                        <div class="section-title-wrapper anim-wrapper section-title-space text-center animation-style-3">
-                            <span class="section-subtitle uppercase">
-        <i class="icon-home"></i>
-        Testimonial
-    </span>
-                            <h2 class="section-title title-animation">Custom Feedback</h2>
-                        </div>
-
-                    </div>
-                </div>
+          
                 <div class="row align-items-center wow bdFadeInUp" data-wow-delay=".3s">
                    
-                    <div class="col-xxl-8 col-xl-8 col-lg-7 col-md-8">
-                        <div class="testimonial-content-two">
-                            <div class="swiper testimonial-active-two">
-                                <div class="swiper-wrapper">
-								
-								
-								
-								<?php
-					
-                    $sql = "SELECT * FROM `testimonial_tbl`";
-	   
-                    $query = $link->query($sql);
-                    while($row = $query->fetch_assoc()){
-                      ?>
-                                    <div class="swiper-slide">
-                                        <div class="testimonials-item style-two">
-                                            <div class="content view-more-view-less">
-                                                
-                                              <?php echo $row['description']; ?>
-                                                <input type="checkbox" class="check" />
-                                            </div>
-                                            <div class="admin-nav-wrap">
-                                                <div class="admin-item">
-                                                    <div class="admin-thumbnail">
-                                                        <img src="admin/img/<?php echo $row['photo']; ?>" alt="Admin Avatar">
-                                                    </div>
-                                                    <div class="admin-info">
-                                                        <h4 class="admin-name"><?php echo $row['name']; ?></h4>
-                                                       
-                                                    </div>
-                                                </div>
-                                            </div>
+                  
+
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
+                        <div class="testimonials-info-wrapper">
+                            <div class="row text-center">
+<div class="col-lg-3">
+<div class="testimonials-info-item">
+                                <div class="content">
+                                    <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="10"
+                                 class="purecounter">10</span>+</h2>
+                                    <p class="description">Year of experience</p>
+                                </div>
+                            </div>
+</div>
+<div class="col-lg-3">
+    <div class="testimonials-info-item">
+                                    <div class="content" >
+                                        <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="05"
+                                     class="purecounter">5</span>+</h2>
+                                        <p class="description">Total Project</p>
+                                    </div>
+                                </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="testimonials-info-item">
+                                        <div class="content" style="margin-top: -13px; ">
+                                        <img src="assets/images/custumber-mony.png" alt="">
+                                            <p class="description">Customer First</p>
                                         </div>
                                     </div>
-                                    <?php }?>
-                                </div>
-                                <!-- If we need navigation buttons -->
-                                <div class="testimonial-navigation d-none d-sm-block">
-                                    <button class="testimonial-nav-prev"><i class="fa-regular fa-arrow-left-long"></i></button>
-                                    <button class="testimonial-nav-next"><i class="fa-regular fa-arrow-right-long"></i></button>
-                                </div>
-                                <div class="testimonial-pagination d-block d-sm-none">
-                                    <div class="testimonial-swiper-dot text-center"></div>
-                                </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="testimonials-info-item">
+                                            <div class="content" style="margin-top: -10px; ">
+                                                <img src="assets/images/1523224.png" alt="">
+                                                <p class="description">Value for money</p>
+                                            </div>
+                                        </div>
+            </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-4">
-                        <div class="testimonials-info-wrapper">
-                            <div class="testimonials-info-item">
-                                <div class="content">
-                                    <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="200"
-                                 class="purecounter">200+</span>+</h2>
-                                    <p class="description">Project Handover</p>
-                                </div>
-                            </div>
-                            <div class="testimonials-info-item">
-                                <div class="content">
-                                    <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="198"
-                                 class="purecounter">198+</span>+</h2>
-                                    <p class="description">Happy Customers</p>
-                                </div>
-                            </div>
-                            <div class="testimonials-info-item">
-                                <div class="content">
-                                    <h2 class="title"><span data-purecounter-duration="1" data-purecounter-end="150"
-                                 class="purecounter">150+</span>+</h2>
-                                    <p class="description">Review</p>
-                                </div>
-                            </div>
+                         
+                          
+                         
                         </div>
                     </div>
                 </div>
@@ -935,7 +896,6 @@ if ($t < "2") {
             </div>
         </section>
         <!-- Testimonial area end -->
-
     
 
 

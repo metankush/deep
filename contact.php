@@ -88,7 +88,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
-                header("location: thank.html");
+                header("location: contact.php");
             } else{
                 echo "Something went wrong. Please try again later.";
             }
@@ -238,7 +238,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                  fill="#ED6E5A" />
                            </svg>
                         </span>Contact Us</span>
-                            <h2 class="section-title title-animation mb-20">Send us a massage!</h2>
+                            <h2 class="section-title title-animation mb-20">Send us a message!</h2>
                             <div class="section-divider mb-25"></div>
                             <div class="contact-social">
                                 <span class="contact-social-title d-block mb-20">Follow Us here:</span>
@@ -256,7 +256,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     </div>
                     <div class="col-xxl-7 col-xl-7 col-lg-7">
                         <div class="contact-wrapper style-one">
-						<form  method="post" action="#" enctype="multipart/form-data">
+						<form  method="post" class="form" action="#" enctype="multipart/form-data">
                             <div class="contact-from">
                                 <div class="row g-5 align-items-center justify-content-center">
                                     <div class="col-lg-6">
@@ -301,7 +301,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     </div>
                                     <div class="col-lg-12 text-center">
                                         <button class="bd-btn btn-style btn-hover-x btn-black w-100" type="submit">Send
-                                            Massage</button>
+                                            Message</button>
                                     </div>
                                 </div>
                             </div>
@@ -357,6 +357,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <script src="assets/js/plugins/tinymce.min.js"></script>
     <script src="assets/js/vendor/ajax-form.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.form').on('submit', function(){
+            alert('Thank you for contacting with us. Well get back to you soon');
+        });
+    });
+</script>
 </body>
 
 

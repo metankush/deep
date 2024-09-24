@@ -88,7 +88,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
-                header("location: thank.html");
+                header("location: enquiry.php");
             } else{
                 echo "Something went wrong. Please try again later.";
             }
@@ -193,7 +193,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <div class="col-xxl-9 col-xl-9 col-lg-9">
                         <div class=" box-shadow-enquiry">
 						
-						<form  method="post" action="#" enctype="multipart/form-data">
+						<form  method="post" action="#" enctype="multipart/form-data" class="form">
                             <div class="contact-from">
                                 <div class="row g-5 align-items-center justify-content-center">
                                     <div class="col-lg-12 text-center">
@@ -218,9 +218,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
+                                        
                                         <div class="form-input-box has-icon icon-right">
                                             <div class="form-input">
-                                                <input name="phone_no" maxlength="12" type="text" placeholder="Your Phone">
+                                                <input type="text" name="phone_no"  maxlength="12" placeholder="Your Phone">
                                                 <div class=""><span><i class="fa-solid fa-phone"></i></span></div>
                                             </div>
                                         </div>
@@ -236,6 +237,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     </div>
                                     <div class="col-lg-12 text-center">
                                         <button class="bd-btn btn-style btn-hover-x btn-black " type="submit">Submit</button>
+                                        <div id="msg"></div>
                                     </div>
                                 </div>
                             </div>
@@ -280,6 +282,32 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <script src="assets/js/plugins/tinymce.min.js"></script>
     <script src="assets/js/vendor/ajax-form.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+		$(document).ready(function(){
+
+
+$("#phone_no").keyup(function(){
+	var phone_no = $("#phone_no").val();
+	if(phone_no.length != 12 && phone_no.length != 10){
+	// $(".bd-btn").attr('disabled', true);
+	$("#msg").html("Phone number shouild be 10 or 12 digit.");
+	} else {
+		$(".pbmit-btn").attr('disabled', false);
+	$("#msg").html("");
+	}
+});
+
+   
+});
+   
+	</script>
+    <script>
+    $(document).ready(function(){
+        $('.form').on('submit', function(){
+            alert('Thank you for enquiring with us. Well get back to you soon');
+        });
+    });
+</script>
 </body>
 
 </html>
